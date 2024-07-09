@@ -11,12 +11,12 @@ const Stores = () => {
       <h3 className="font-bold text-[31px] text-[#FFFFFF]  mb-[45px] text-center sm:text-start pl-[30px]">
         Our Collection Of Furniture.
       </h3>
-      <div className="flex gap-3 flex-wrap items-center justify-center mb-[55px]">
-        <Button text={"Stools"} style={"bg-[#FFFFFF]"} />
-        <Button text={"beds"} style={"bg-[#FFFFFF] text-[#964B00]"} />
-        <Button text={"Chiars"} style={"bg-[#FFFFFF] text-[#964B00]"} />
-        <Button text={"Tables"} style={"bg-[#FFFFFF] text-[#964B00]"} />
-        <Button text={"Others"} style={"bg-[#FFFFFF] text-[#964B00]"} />
+      <div className="flex flex-wrap items-center justify-center mb-[55px]">
+        <Button text={"Stools"} style={"bg-[#FFFFFF] text-[#964B00] md:w-[183px] md:h-[45px] w-[92px] h-[23px]"} />
+        <Button text={"beds"} style={"bg-[#FFFFFF] text-[#964B00] md:w-[127px] md:h-[39px] w-[64px] h-[20px]"} />
+        <Button text={"Chiars"} style={"bg-[#FFFFFF] text-[#964B00] md:w-[127px] md:h-[39px] w-[64px] h-[20px]"} />
+        <Button text={"Tables"} style={"bg-[#FFFFFF] text-[#964B00] md:w-[127px] md:h-[39px] w-[64px] h-[20px]"} />
+        <Button text={"Others"} style={"bg-[#FFFFFF] text-[#964B00] md:w-[127px] md:h-[39px] w-[64px] h-[20px]"} />
       </div>
       <div className="flex flex-wrap gap-[24px] md:gap-[60px] items-center justify-center lg:px-[76px] ">
         {Products.map((product) => (

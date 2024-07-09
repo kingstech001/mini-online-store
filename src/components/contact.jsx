@@ -22,7 +22,7 @@ const Contact = () => {
             <input type="text" placeholder="Enter Your Email Address " className="w-full h-full bg-transparent pl-[10px]" />
           </div>
           <div className="w-[107.99px] h-[40.18px] ">
-          <button className="bg-[#964B00] h-full w-full rounded-[10.05px]">
+          <button className="bg-[#964B00] h-full w-full rounded-[10.05px] text-white">
             Submit
           </button>
           </div>
