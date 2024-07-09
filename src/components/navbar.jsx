@@ -52,7 +52,7 @@ const Navbar = ({ scrolled }) => {
         Stores
       </a>
       <a
-        href="/home#contact"
+        href="#contact"
         className={`${currentSection === 'contact' ? 'border-b-2' : ''} ${
           scrolled ? 'text-[#56564D] border-[#56564D]' : 'text-[#56564D] border-[#56564D]'
         }`}
