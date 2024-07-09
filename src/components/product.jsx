@@ -7,7 +7,7 @@ import Button from "./Button";
 const Product = () => {
   return (
     <div id="product" className="">
-      <div className="bg-[#964B00] lg:pb-[70px] flex flex-col items-center justify-center">
+      <div className="bg-[#964B00] lg:pb-[70px] flex flex-col items-center justify-center p-[10px]">
         <div>
           <h2 className="text:text-[20px] md:text-[49px] font-bold text-[#FEFEFC] text-center lg:mb-[34px] lg:mt-[38px]">
             Why Choose Us
