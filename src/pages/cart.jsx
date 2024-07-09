@@ -5,13 +5,21 @@ import cartImage1 from "../assets/Rectangle 31.svg";
 import trash2 from "../assets/trash.svg";
 import visa from "../assets/visa.svg";
 import visaCard from "../assets/visa card.svg";
-import cartImage2 from "../assets/cartimage.svg"
-import cartImage3 from "../assets/cartimage2.svg"
+import cartImage2 from "../assets/cartimage.svg";
+import cartImage3 from "../assets/cartimage2.svg";
 import { NavLink } from "react-router-dom";
+import backToHomebtn from "../assets/arrow-square-left.svg";
+import Logo from "../assets/logo.svg";
 
 const Cart = () => {
   return (
-    <div className=" pt-[100px] sm:pt-[147px]">
+    <div className=" ">
+      <div className="flex justify-between lg:p-[40px]">
+        <img src={Logo} alt="logo" />
+        <NavLink to={'/home#home'}>
+        <img src={backToHomebtn} alt="back to home button" />
+        </NavLink>
+      </div>
       <div className="lg:flex lg:p-[40px]">
         <div className="px-[10px] sm:px-[50px] sm:h-full h-[70vh] flex-1 mb-3">
           <div className="flex justify-between items-center">
@@ -125,7 +133,7 @@ const Cart = () => {
             <p>$180.00</p>
           </div>
           <div className="flex items-center justify-center p-[20px] bg-[#964B00] text-[#F5F5DC] text-[25px] font-medium w-full h-[60px]">
-            <NavLink to={'/checkout'}>CHECKOUT NOW</NavLink>
+            <NavLink to={"/checkout"}>CHECKOUT NOW</NavLink>
           </div>
         </div>
       </div>

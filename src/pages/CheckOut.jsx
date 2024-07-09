@@ -2,6 +2,8 @@ import React from "react";
 import heart from "../assets/Vector.svg";
 import checkoutimage from "../assets/checkoutimage.svg";
 import Button from "../components/Button";
+import x from "../assets/cancel.svg"
+import { NavLink } from "react-router-dom";
 
 const CheckOut = () => {
   return (
@@ -17,7 +19,10 @@ const CheckOut = () => {
           <img src={checkoutimage} alt="checkout" className="" />
         </div>
       </div>
-      <div className="bg-[#2D2D2D] text-center text-[#FFFFFF] w-full md:w-[640px]">
+      <div className="bg-[#2D2D2D] text-center text-[#FFFFFF] w-full md:w-[640px] rounded-r-[30px] relative pt-5">
+        <NavLink to={'/cart'}>
+        <img src={x} alt="cancel" className="absolute right-5 top-3"/>
+        </NavLink>
         <div className="border-b-[1px] border-[#FFFFFF]">
           <h3 className="text-[39px] font-bold text-[#FFFFFF]">CHECKOUT</h3>
           <p className="text-[20px] font-bold">NAME ON CARD</p>
@@ -38,7 +43,7 @@ const CheckOut = () => {
                 <p className="text-[20px] font-medium">MM/YY</p>
             </div>
            </div>
-            <div className="bg-[#783C00]">
+            <div className="bg-[#783C00] rounded-br-[30px]">
                 <Button text={'Pay Now'}/>
             </div>
         </div>

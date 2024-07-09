@@ -16,11 +16,13 @@ import CheckOut from "./pages/CheckOut";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
-        <Route path="/checkout" element={<CheckOut />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="" index element={<Home />} />
+    <Route>
+      <Route path="/checkout" element={<CheckOut />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/" element={<RootLayout />}>
+        <Route path="/home" index element={<Home />} />
       </Route>
+    </Route>
   )
 );
 

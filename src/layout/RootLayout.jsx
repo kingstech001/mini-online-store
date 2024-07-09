@@ -4,6 +4,7 @@ import cartIcon from '../assets/shopping-cart.svg';
 import searchIcon from '../assets/search-normal.svg';
 import Logo from '../assets/logo.svg';
 import Navbar from '../components/navbar';
+import Home from '../pages/Home-page';
 // import Navbar from '../components/Navbar';
 
 const RootLayout = () => {
@@ -37,7 +38,7 @@ const RootLayout = () => {
         </div>
       </header>
       <main>
-        <Outlet />
+        <Home />
       </main>
     </div>
   );
