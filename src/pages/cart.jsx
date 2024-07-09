@@ -13,15 +13,15 @@ import Logo from "../assets/logo.svg";
 
 const Cart = () => {
   return (
-    <div className=" ">
-      <div className="flex justify-between lg:p-[40px]">
+    <div >
+      <div className="flex justify-between p-[40px]">
         <img src={Logo} alt="logo" />
         <NavLink to={'/home#home'}>
         <img src={backToHomebtn} alt="back to home button" />
         </NavLink>
       </div>
       <div className="lg:flex lg:p-[40px]">
-        <div className="px-[10px] sm:px-[50px] sm:h-full h-[70vh] flex-1 mb-3">
+        <div className="px-[10px] sm:px-[50px] sm:h-full h-[60vh] flex-1 mb-3">
           <div className="flex justify-between items-center">
             <h2 className="text-[20px] font-bold text-[#713800]">Cart</h2>
             <div className="flex items-center">
@@ -137,7 +137,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <footer className=" bg-[#DEC7B0] flex justify-between items-center p-[20px] flex-wrap">
+      <footer className=" bg-[#DEC7B0] flex justify-between items-center p-[20px] flex-wrap mt-[20px]">
         <div>
           <ul>
             <li className="text-[20px] font-medium">Home</li>

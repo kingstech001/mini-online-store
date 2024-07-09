@@ -19,31 +19,31 @@ const CheckOut = () => {
           <img src={checkoutimage} alt="checkout" className="" />
         </div>
       </div>
-      <div className="bg-[#2D2D2D] text-center text-[#FFFFFF] w-full md:w-[640px] rounded-r-[30px] relative pt-5">
+      <div className="bg-[#2D2D2D] text-center text-[#FFFFFF] w-full md:w-[640px] md:rounded-r-[30px] relative pt-5">
         <NavLink to={'/cart'}>
         <img src={x} alt="cancel" className="absolute right-5 top-3"/>
         </NavLink>
-        <div className="border-b-[1px] border-[#FFFFFF]">
+        <div className="border-b-[1px] border-[#FFFFFF] mx-5">
           <h3 className="text-[39px] font-bold text-[#FFFFFF]">CHECKOUT</h3>
           <p className="text-[20px] font-bold">NAME ON CARD</p>
           <p className="text-[20px] font-normal">KING TEC REMI</p>
         </div>
-        <div className="border-b-[1px] border-[#FFFFFF]">
+        <div className="border-b-[1px] border-[#FFFFFF] mx-5">
           <h3 className="text-[20px] font-bold text-[#FFFFFF]">CARD NUMBER</h3>
           <p className="text-[20px] font-normal">5399 2370 5916 7813</p>
         </div>
         <div>
-           <div className="flex justify-between pb-[32px]">
-           <div className="border-[#FFFFFF] border-b-[1px]">
+           <div className="flex justify-between pb-[32px] px-5">
+           <div className="border-[#FFFFFF] border-b-[1px] w-[170px]">
                 <p className="text-[20px] font-medium">EXPIRY DATE</p>
                 <p className="text-[20px] font-medium">MM/YY</p>
             </div>
-            <div className="border-[#FFFFFF] border-b-[1px]">
-                <p className="text-[20px] font-medium">EXPIRY DATE</p>
-                <p className="text-[20px] font-medium">MM/YY</p>
+            <div className="border-[#FFFFFF] border-b-[1px] w-[170px]">
+                <p className="text-[20px] font-medium">CVV</p>
+                <p className="text-[20px] font-medium">***</p>
             </div>
            </div>
-            <div className="bg-[#783C00] rounded-br-[30px]">
+            <div className="bg-[#783C00] md:rounded-br-[30px]">
                 <Button text={'Pay Now'}/>
             </div>
         </div>
