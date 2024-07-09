@@ -26,7 +26,7 @@ const Navbar = ({ scrolled }) => {
   }, []);
 
   return (
-    <nav className="flex items-center gap-2 sm:gap-5 text-[10px] sm:text-[18px]">
+    <nav className="hidden md:flex items-center gap-2 sm:gap-5 text-[10px] sm:text-[18px]">
       <a
         href="/home#home"
         className={`${currentSection === 'home' ? 'border-b-2' : ''} ${

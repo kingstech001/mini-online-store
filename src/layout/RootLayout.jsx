@@ -5,6 +5,7 @@ import searchIcon from '../assets/search-normal.svg';
 import Logo from '../assets/logo.svg';
 import Navbar from '../components/navbar';
 import Home from '../pages/Home-page';
+import menuBar from "../assets/menu bar.svg"
 // import Navbar from '../components/Navbar';
 
 const RootLayout = () => {
@@ -34,7 +35,8 @@ const RootLayout = () => {
           <NavLink to="/cart">
             <img src={cartIcon} alt="cart icon" />
           </NavLink>
-          <img src={searchIcon} alt="search icon" />
+          <img src={searchIcon} alt="search icon" className='hidden md:block' />
+          <img src={menuBar} alt="menu bar" className='md:hidden' />
         </div>
       </header>
       <main>

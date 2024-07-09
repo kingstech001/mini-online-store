@@ -12,7 +12,7 @@ const Home = () => {
       <Product/>
       <Stores/>
       <Contact/>
-      <footer className="bg-[#964B00] h-[50px]"></footer>
+      <footer className="bg-[#964B00] md:h-[50px] "></footer>
     </div>
   );
 };

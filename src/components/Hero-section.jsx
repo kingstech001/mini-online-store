@@ -12,14 +12,14 @@ const HeroSection = () => {
   return (
     <div className="pt-20" id="home">
     <div className="flex flex-col items-center text-center">
-      <h1 className="text-[#964B00] text-[30px] lg:text-[60px] md:text-[40px] font-black text-center">
+      <h1 className="text-[#964B00] text-[20px] lg:text-[60px] md:text-[40px] font-black text-center">
         Furniture For The Way You Live
       </h1>
       <div>
         <img src={heroImshe} alt="hero-image" className="" />
       </div>
       <div className="flex justify-between w-full px-[20px] lg:px-[76px]">
-      <img src={groupCircleLeft} alt="group-circle-left" className="hidden sm:block transition-all duration-300" />
+      <img src={groupCircleLeft} alt="group-circle-left" className="w-[42px] sm:block transition-all duration-300" />
         <div className="">
           <p className="w-full  lg:w-[649px] sm:text-[20px] lg:mb-[11px] ">
             Transform your space, with the chairs, tables, cupboards, beds and
@@ -32,7 +32,7 @@ const HeroSection = () => {
             }
           />
         </div>
-        <img src={groupCircle} alt="group-circle" className="hidden sm:block transition-all duration-300" />
+        <img src={groupCircle} alt="group-circle" className="w-[42px] sm:block transition-all duration-300" />
       </div>
     </div>
     <div className="flex flex-col justify-center items-center">
