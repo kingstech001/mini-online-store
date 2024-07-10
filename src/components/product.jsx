@@ -15,7 +15,7 @@ const Product = () => {
         </div>
         <div className="flex flex-wrap justify-center items-center sm:justify-between sm:w-full sm:px-[50px] md:px-[100px] lg:px-[207px]">
           <div className="w-[109px] md:w-[168px] px-[8.5px]">
-            <div className="flex flex-col-reverse md:flex-col ">
+            <div className="flex flex-col-reverse md:flex-col">
               <img
                 src={TruckFast}
                 alt="truck-fast"
