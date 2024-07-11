@@ -7,74 +7,62 @@ import Button from "./Button";
 const Product = () => {
   return (
     <div id="product" className="">
-      <div className="bg-[#964B00] lg:pb-[70px] flex flex-col items-center justify-center p-[10px]">
+      <div className="bg-[#964B00] px-[5px] md:py-[50px]">
         <div>
-          <h2 className="text:text-[20px] md:text-[49px] font-bold text-[#FEFEFC] text-center lg:mb-[34px] lg:mt-[38px]">
+          <h2 className="text:text-[20px] sm:text-[49px] font-bold text-[#FEFEFC] text-center lg:mb-[34px]  pb-5">
             Why Choose Us
           </h2>
         </div>
-        <div className="flex flex-wrap justify-center items-center sm:justify-between sm:w-full sm:px-[50px] md:px-[100px] lg:px-[207px]">
-          <div className="w-[109px] md:w-[168px] px-[8.5px]">
-            <div className="flex flex-col-reverse md:flex-col">
-              <img
-                src={TruckFast}
-                alt="truck-fast"
-                className="block m-auto w-[24px] md:w-[48px]"
-              />
-              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF] text-center">
+        <div className="grid grid-cols-3 gap-2 p-[10px] text-center min-w-[100px]">
+          <div className="m-auto max-w-[200px]">
+            <div className="flex flex-col-reverse sm:flex-col items-center">
+              <img src={TruckFast} alt="truck-fast" className="block mx-auto" />
+              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF]">
                 Fast Delivery
               </h3>
             </div>
-            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF] text-center">
+            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF]">
               with supersonic speed you don’t get held back from living in your
               dream home
             </p>
           </div>
-          <div className="w-[109px] md:w-[168px] ">
-            <div className="flex flex-col-reverse md:flex-col">
-              <img
-                src={Wallet}
-                alt="wallet-money"
-                className="block m-auto w-[24px] md:w-[48px]"
-              />
-              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF] text-center">
+          <div className="m-auto max-w-[200px]">
+            <div className="flex flex-col-reverse sm:flex-col items-center">
+              <img src={Wallet} alt="wallet-money" className="block mx-auto" />
+              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF]">
                 Keep Money
               </h3>
             </div>
-            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF] text-center">
+            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF]">
               No need to break savings we got you covered with our flexible
               payment subscription
             </p>
           </div>
-          <div className="w-[109px] md:w-[168px] px-[8.5px]">
-            <div className="flex flex-col-reverse md:flex-col">
-              <img
-                src={Time}
-                alt="timer"
-                className="block m-auto w-[24px] md:w-[48px]"
-              />
-              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF] text-center">
-              Save Time 
+          <div className="m-auto max-w-[200px]">
+            <div className="flex flex-col-reverse sm:flex-col items-center">
+              <img src={Time} alt="timer" className="block mx-auto" />
+              <h3 className="text-[16px] md:text-[25px] font-normal text-[#FFFFFF]">
+                Save Time
               </h3>
             </div>
-            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF] text-center">
+            <p className="text-[10px] md:text-[13px] font-normal text-[#FFFFFF]">
               Get it when you want it, how you like it, where you want it: no
               time to check time.
             </p>
           </div>
         </div>
       </div>
-      <div className="bg-[#FEFEFC] px-[20px]">
-        <h2 className="text-[20px] md:text-[49px] font-bold text-[#964B00] text-center">
+      <div className="bg-[#FEFEFC] pt-[10px] ">
+        <h2 className="text-[20px] sm:text-[49px] font-bold text-[#964B00] text-center">
           Our Exclusive Products
         </h2>
-        <div className="items-center justify-center lg:flex-nowrap md:flex pb-[20px] sm:mx-[30px]">
+        <div className="items-center justify-center sm:flex-nowrap sm:flex pb-[20px] px-[20px] lg:max-w-[1192px] m-auto">
           <img
             src={exProductImage}
             alt="exclusive product"
-            className="rounded-[40px]  block m-auto"
+            className="rounded-[40px]  block m-auto max-w-[100%]"
           />
-          <div className="bg-[#FFFFFF] block m-auto items-center md:shadow  p-[10px] text-center">
+          <div className="bg-[#FFFFFF] flex flex-col items-center sm:shadow p-[20px] text-center">
             <h3 className="text-[16px] md:text-[31px] text-[#964B00]">
               Haven Family Sofa
             </h3>

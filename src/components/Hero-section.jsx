@@ -19,20 +19,20 @@ const HeroSection = () => {
         <img src={heroImshe} alt="hero-image" className="" />
       </div>
       <div className="flex justify-between w-full px-[20px] lg:px-[76px]">
-      <img src={groupCircleLeft} alt="group-circle-left" className="w-[42px] sm:block transition-all duration-300" />
-        <div className="">
-          <p className="w-full  lg:w-[649px] sm:text-[20px] lg:mb-[11px] ">
+      <img src={groupCircleLeft} alt="group-circle-left" className="max-w-[10%] sm:block transition-all duration-300" />
+        <div className="flex flex-col items-center">
+          <p className="w-full text-[10px]  lg:w-[649px] sm:text-[20px] lg:mb-[11px] ">
             Transform your space, with the chairs, tables, cupboards, beds and
             bookcases that feels like home
           </p>
           <Button
             text={"Shop Now"}
             style={
-              "bg-[#964B00] text-white rounded-2xl  text[25px] font-medium px-[20px] py-[10px] block"
+              "bg-[#964B00] text-white rounded-2xl  text[25px] font-medium px-[20px] py-[10px] block m-auto"
             }
           />
         </div>
-        <img src={groupCircle} alt="group-circle" className="w-[42px] sm:block transition-all duration-300" />
+        <img src={groupCircle} alt="group-circle" className="max-w-[10%] sm:block transition-all duration-300" />
       </div>
     </div>
     <div className="flex flex-col justify-center items-center">
